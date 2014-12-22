@@ -28,7 +28,7 @@ EXPOSE 8888
 
 RUN cd git/ierlang && mv src/start-ierl-notebook.sh src/start-ierl-notebook.sh.bak
 
-ADD start-ierl-notebook.sh /d/git/ierlang/src/
+ADD add/start-ierl-notebook.sh /d/git/ierlang/src/
 
 RUN chmod +x git/ierlang/src/start-ierl-notebook.sh
 
