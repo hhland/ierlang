@@ -19,7 +19,7 @@ RUN cd git && git clone http://github.com/zeromq/erlzmq2.git && cd erlzmq2 && ma
 ENV ERL_LIBS /d/git/erlzmq2
 ENV PATH $PATH:$ERL_LIBS
 
-RUN cd git && git clone http://github.com/robbielynch/ierlang.git
+RUN cd git && git clone http://github.com/hhland/ierlang.git
                                     
 #RUN cd /usr/local/lib/python2.7/dist-packages/IPython/kernel/zmq && mv session.py session.py.bak && cp /d/git/ierlang/ipython_edited_files/session.py ./
 
