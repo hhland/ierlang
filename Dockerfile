@@ -21,7 +21,7 @@ ENV PATH $PATH:$ERL_LIBS
 
 RUN cd git && git clone http://github.com/robbielynch/ierlang.git
                                     
-RUN cd /usr/local/lib/python2.7/dist-packages/IPython/kernel/zmq && mv session.py session.py.bak && cp /d/git/ierlang/ipython_edited_files/session.py ./
+#RUN cd /usr/local/lib/python2.7/dist-packages/IPython/kernel/zmq && mv session.py session.py.bak && cp /d/git/ierlang/ipython_edited_files/session.py ./
 
 
 EXPOSE 8888
